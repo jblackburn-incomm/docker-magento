@@ -9,8 +9,8 @@ services:
   app:
     image: markoshust/magento-nginx:1.18-4
     ports:
-      - "99:9999"
-      - "449:8449"
+      - "81:8000"
+      - "449:8443"
     links:
       - db
       - phpfpm
