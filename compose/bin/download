@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 VERSION=${1:-2.4.6-p2}
-EDITION=${2:-community}
+EDITION=${2:-commerce}
 
 bin/stop
 
